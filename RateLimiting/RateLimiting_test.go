@@ -54,7 +54,7 @@ func TestLimiter(t *testing.T) {
 
 }
 
-func BenchmarkLimiter5000req(b *testing.B) {
+func BenchmarkLimiter(b *testing.B) {
 	var i uint32
 	var mutex sync.Mutex
 	tmp := 0
