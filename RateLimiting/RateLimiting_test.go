@@ -60,10 +60,10 @@ func BenchmarkLimiter5000req(b *testing.B) {
 	tmp := 0
 	var wg sync.WaitGroup
 
-	limiter, _ := NewLimiter(5, 1*time.Second, 1000000)
+	limiter, _ := NewLimiter(5, 1*time.Second, 1000)
 
-	wg.Add(1000000)
-	for i = 0; i < 1000000; i++ {
+	wg.Add(1001)
+	for i = 0; i < 1001; i++ {
 
 		go func(i uint32) {
 			for j := 0; j < 10; j++ {
