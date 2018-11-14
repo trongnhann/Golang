@@ -11,7 +11,7 @@ Rate_Limiter_ver_0.1 consist:
     + RateLimiting_test.go is testing.
     
 -------------------------------------------------------
-Rate_Limiter_ver_0.2 consist:  
+Rate_Limiter_ver_0.2 consist:  New version, faster than ver_0.1 because it use normal map
  - LRU consist:
     + LRU.go is package LRUCache for type map.
     + LRU_test is testing file.
