@@ -21,3 +21,5 @@ Rate_Limiter_ver_0.2 consist:  New version, faster than ver_0.1 because it use n
     
 -------------------------------------------------------
 MapGoroutine is package as map in go but it can handle cocurrent.
+-------------------------------------------------------
+DevideK : is package devide N to K group
